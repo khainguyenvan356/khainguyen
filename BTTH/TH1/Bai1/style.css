@@ -1,0 +1,66 @@
+.add-form {
+    margin-bottom: 20px;
+}
+
+.add-form input, .add-form textarea, .add-form button {
+    margin: 5px 0;
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    display: block;
+}
+
+.add-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.add-form button:hover {
+    background-color: #45a049;
+}
+
+.flower-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.flower-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.flower-item img {
+    width: 100%;
+    height: auto;
+}
+
+table button {
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+table button:hover {
+    background-color: #d32f2f;
+}
+.admin-btn {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.admin-btn:hover {
+    background-color: #45a049;
+}
